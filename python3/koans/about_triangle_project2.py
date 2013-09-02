@@ -11,7 +11,7 @@ class AboutTriangleProject2(Koan):
     # Let's handle that part now.
     def test_illegal_triangles_throw_exceptions(self):
         with self.assertRaises(TriangleError):
-            triangle(0, 0, 0)
+            triangle(0,0,0)
 
         with self.assertRaises(TriangleError):
             triangle(3, 4, -5)
